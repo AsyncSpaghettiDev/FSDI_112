@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} About {% endblock title %}
+
+{% block content %}
+<h1>Hi! Im Jonathan Mojica</h1>
+<p>
+    I'm Jonathan Mojica, a person with a big love to the development, more specific with the web development <br>
+    I like to be always learning some new technologies, I don't want be deprecated in this moving world.
+</p>
+<img src="{% static 'img/signature.svg' %}" alt="Jonathan Mojica" style="width: clamp(50px, 50%, 250px);"
+    class="img-fluid rounded-circle">
+{% endblock content %}
